@@ -2,7 +2,7 @@
   "name": "monocle-isup",
   "version": "0.0.0",
   "description": "monocle-isup ============",
-  "main": "cli.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,17 @@
     "type": "git",
     "url": "https://github.com/Urucas/monocle-isup.git"
   },
-  "author": "Urucas <hello@urucas.com> (http://urucas.com/)",
+	"author": {
+		"name" : "Urucas",
+		"email" : "hello@urucas.com",
+		"url" : "http://urucas.com"
+	},
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Urucas/monocle-isup/issues"
+  },
+	 "engines": {
+    "node": ">=0.11.7"
   },
   "dependencies": {
     "monocle-js": "~1.0.0",
